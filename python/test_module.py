@@ -11,17 +11,18 @@ import sys, time, os
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def helloworld():
     print("Hello world!")
-    
-def helloworld2(num=1):
-    for _ in range(num):
-        print("Hello world2!")
+
+
+def rand(n):
+    return np.random.rand(n, n)
+
 
 def main():
     pass
-    
-##END main
+
     
 if __name__ == '__main__':
     main()
