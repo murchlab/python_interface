@@ -16,8 +16,7 @@ def helloworld():
     print("Hello world!")
 
 
-def rand(n):
-    return np.random.rand(n, n)
+rand = np.random.rand
 
 
 def main():
