@@ -9,8 +9,8 @@ import importlib.util
 
 zmq_port = 27183
 http_port = 31416
-timeout = 60000     # Timeout in ms
-http_timeout = 5     # Timeout in ms
+timeout = 120000     # Timeout in ms
+http_timeout = 120     # Timeout in s
 
 
 context = zmq.Context()
